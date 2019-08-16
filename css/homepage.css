@@ -1,0 +1,108 @@
+body{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+wrapper{
+  position: relative;
+}
+
+.description{
+  font-size: 36px;
+  text-align: center;
+}
+
+#description_larger{
+  font-size: 48px;
+}
+
+.confirmButton{
+  width: 50%;
+  height: auto;
+  margin-left: 15%;
+  margin-top: 4%;
+}
+
+.campaignLogo{
+  width: 70%;
+  height: auto;
+  margin-bottom: 5%;
+  animation-name: float;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	55% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-10px);
+	}
+
+  76% {
+		transform: translatey(2px);
+	}
+
+	80% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.form{
+  text-align: left;
+  padding-left: 15%;
+  padding-top: 4%;
+}
+
+.container{
+  padding-bottom: 3%;
+  font-size: 40px;
+}
+
+.emoji{
+  font-size: 45px;
+}
+
+label{
+  color: green;
+}
+
+input.checkbox{
+  width: 36px;
+  height: 36px;
+}
+
+/* input[type=checkbox]:disabled{
+  color: #fff;
+} */
+
+input[type=checkbox] + label {
+  color: #3dd646;
+}
+input[type=checkbox]:checked + label {
+  color: white;
+}
+
+/* input#checkbox1.checkbox{
+  border-top: 10px;
+} */
+
+.brandLogo{
+  width: 30%;
+  height: auto;
+  margin-bottom: 20%;
+}
+
+.drink{
+  width: 100%;
+  height: auto;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}

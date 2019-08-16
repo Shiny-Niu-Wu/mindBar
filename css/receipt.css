@@ -1,0 +1,155 @@
+body{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.description{
+  font-size: 36px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#description_larger{
+  font-size: 48px;
+}
+
+wrapper{
+  position: relative;
+}
+
+/* .wrapper{
+  background-image: url("images/blackBg.jpeg");
+  background-color: black;
+} */
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+.downloadButton{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.shareButton{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.campaignLogo{
+  width: 70%;
+  height: auto;
+  margin-bottom: 5%;
+  animation-name: float;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	55% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-10px);
+	}
+
+  76% {
+		transform: translatey(2px);
+	}
+
+	80% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  font-size: 36px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.choice{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5px;
+}
+
+.choice_image{
+  width: 30%;
+  margin-top: 5%;
+}
+
+.choice_text{
+  width: auto;
+  text-align: left;
+}
+
+.secret{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.ingredient{
+  color: #3dd646;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.base{
+  width: 50%;
+  height: auto;
+}
+
+.lemon{
+  width: 60%;
+  height: auto;
+  margin-top: 10px;
+}
+
+#berries_div{
+  /* margin-right: 15px; */
+}
+
+.berries{
+  width: 70%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.brandLogo{
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-bottom: 40%;
+  margin-top: 5%;
+}
+
+.photo{
+  width: 40%;
+  height: auto;
+  margin-bottom: 5%;
+}
+
+.drink{
+  width: 100%;
+  height: auto;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
