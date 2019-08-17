@@ -89,10 +89,6 @@ input[type=checkbox]:checked + label {
   color: white;
 }
 
-/* input#checkbox1.checkbox{
-  border-top: 10px;
-} */
-
 .brandLogo{
   width: 30%;
   height: auto;
