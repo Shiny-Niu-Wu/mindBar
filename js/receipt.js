@@ -31,7 +31,7 @@
         html2canvas(wrapper, {
             onrendered: function(canvas) {
                 canvas.toBlob(function(blob) {
-                    saveAs(blob, 'myScreenshot.png');
+                    saveAs(blob, 'myRecipe.png');
                 });
             }
         });
