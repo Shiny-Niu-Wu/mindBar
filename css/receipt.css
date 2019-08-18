@@ -1,5 +1,5 @@
 body{
-  /* background-color: black; */
+  background-color: black;
   color: white;
   text-align: center;
   font-family: 'Noto Sans TC', sans-serif;
@@ -89,6 +89,7 @@ body{
   font-size: 36px;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 5%;
 }
 
 .choice{
