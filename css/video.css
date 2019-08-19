@@ -1,0 +1,11 @@
+body{
+  background-color: black;
+}
+
+#logoVideo{
+  width: 90%;
+  height: auto;
+  position: relative;
+  left: 5%;
+  margin-top: 40%;
+}

@@ -1,56 +1,13 @@
 <!doctype html>
 
 <head>
-  <link rel="stylesheet" href="css/homepage.css">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
-  <script src="js/homepage.js"></script>
+  <link rel="stylesheet" href="css/video.css">
 </head>
 
 <body>
-  <img src="images/blackBg.jpg" alt="background" class="background">
-  <wrapper>
-    <img src="images/campaignLogo.png" alt="campaignLogo" class="campaignLogo">
+  <video id="logoVideo" muted autoplay>
+    <source src="images/logo.mp4" type="video/mp4" />
+  </video>
 
-    <p class="description">請從下列選項中勾選出<br>
-      <span id="description_larger">兩個你品嚐到的子庭的心事</span>
-    </p>
-
-    <form class="form" action="receipt.html" get="post">
-
-      <div class="container">
-        <input type="checkbox" id="checkbox1" name="checkbox1" class="checkbox">
-        <label for="checkbox1">我手機掉到馬桶裡好臭  <span class="emoji">&#128546;</span></label>
-      </div>
-
-      <div class="container">
-        <input type="checkbox" id="checkbox2" name="checkbox2" class="checkbox" checked>
-        <label for="checkbox2">我交男朋友了，是你大學的教授  <span class="emoji">&#128522;</span></label>
-      </div>
-
-      <div class="container">
-        <input type="checkbox" id="checkbox3" class="checkbox" name="checkbox3">
-        <label for="checkbox3">你煮的飯都沒有熟  <span class="emoji">&#128544;</span></label>
-      </div>
-
-      <div class="container">
-        <input type="checkbox" id="checkbox4" class="checkbox" name="checkbox4" class="checkbox" checked>
-        <label for="checkbox4">實習好累，我以為你會準備宵夜  <span class="emoji">&#128546;</span></label>
-      </div>
-
-      <div class="container">
-        <input type="checkbox" id="checkbox5" name="checkbox5" class="checkbox">
-        <label for="checkbox5">我抽到機票了  <span class="emoji">&#128522;</span></label>
-      </div>
-
-      <input type="image" src="images/confirm.png" alt="Submit Form" class="confirmButton"/>
-    </form>
-
-    <p class="description">送出答案獲得<br>
-      <span id="description_larger">{心事調酒吧特製禮盒}</span>
-    </p>
-
-    <img src="images/brandLogo.png" alt="brandLogo" class="brandLogo">
-    <img src="images/18drink.jpg" alt="18drink" class="drink">
-  </wrapper>
-
+  <script src="js/video.js"></script>
 </body>
